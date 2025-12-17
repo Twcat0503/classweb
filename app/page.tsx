@@ -8,7 +8,7 @@ const infoCards = [
     body: "預留",
   },
   {
-    title: "數位課程",
+    title: "課程",
     body: "預留",
   },
 ];
@@ -23,7 +23,7 @@ export default function Home() {
               Digital Learning Exclusive Class
             </p>
             <h1 className="text-4xl font-bold leading-tight text-slate-900 sm:text-5xl dark:text-white">
-              DLEC 9th 第九屆數位學習實驗班
+              class
             </h1>
             <p className="max-w-xl text-lg leading-relaxed text-slate-600 dark:text-slate-300">
               預留。

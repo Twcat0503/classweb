@@ -7,7 +7,7 @@ import { ThemeToggle } from "./theme-toggle";
 
 const navItems = [
   { label: "首頁", href: "/" },
-  { label: "關於數位班", href: "/about" },
+  { label: "關於本班", href: "/about" },
   { label: "成果", href: "/showcase" },
   { label: "成員", href: "/members" },
   { label: "聯絡方式", href: "/contact" },
@@ -78,7 +78,7 @@ export function SiteShell({ children }: { children: ReactNode }) {
         {!isReady && (
           <div className="fixed inset-0 z-50 flex flex-col items-center justify-center bg-slate-950 text-slate-100">
             <div className="h-14 w-14 animate-spin rounded-full border-2 border-slate-600 border-t-white" />
-            <p className="mt-6 text-sm tracking-wide">數位班9th載入中...</p>
+            <p className="mt-6 text-sm tracking-wide">載入中...</p>
           </div>
         )}
 

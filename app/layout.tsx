@@ -15,8 +15,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "DLEC 9th | 第九屆數位學習實驗班",
-  description: "The YCSH DLEC9th Official Website",
+  title: "class website",
+  description: "The class website",
 };
 
 export default function RootLayout({

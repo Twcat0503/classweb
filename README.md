@@ -1,7 +1,5 @@
-## DLEC 9th 第九屆數位學習實驗班
-[DLEC 9th web](https://dlec9th.twcat0503.org)
-
-用於介紹數位班、學生成果發表會、成員與相關資訊。
+## class website
+班網框架，提供給各班級快速建立專屬網站的範本。
 
 ### 技術棧
 - Next.js 13 (App Router)
@@ -27,7 +25,7 @@ npm start
 - public/: 可放置logo與專題圖片
 
 ### 部署
-部署至 Cloudflare Pages 子網域 dlec9th.twcat0503.org
+部署至 Cloudflare Page
 
 ### 開發人員
 - 主要開發者: twcat0503 
